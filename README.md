@@ -13,4 +13,4 @@ Jones, K., Vukomanovic, J.V., Nowell, B., McGovern, S.M. 2024. Mapping Wildfire 
 
 * MTBS fire boundaries were downloaded, [here](https://www.mtbs.gov/direct-download) in July 2022. The mtbs_perims_DD.shp is used in [*scripts/02_getMTBSbounds.R*] (INSERTLINK).
 
-* Census place data were downloaded using wget with the commands in [get_census_place_data/get_cp_yearly](https://github.com/kejones8/Jurisdictional_Complexity/tree/main/get_census_place_data). For every year and every state, the census places designated as Functional Statistical Type A were selected and yearly files were generated (used in [*scripts/proc_cenplace.R] (INSERT LINK)*
+* Census place data were downloaded using wget with the commands in [get_census_place_data/get_cp_yearly](https://github.com/kejones8/Jurisdictional_Complexity/tree/main/get_census_place_data). For every year and every state, the census places designated as Functional Statistical Type A were selected and yearly files were generated (used in [*scripts/proc_cenplace.R] (INSERT LINK)*. As referenced in the script, these data were placed in the /data/census_place/yearly directory.
