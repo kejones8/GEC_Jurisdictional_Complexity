@@ -9,8 +9,8 @@ Jones, K., Vukomanovic, J.V., Nowell, B., McGovern, S.M. 2024. Mapping Wildfire 
 
 ## Important Notes on Data Availability:
 
-* The wildfire incident data were downloaded, [here](https://figshare.com/articles/dataset/All-hazards_dataset_mined_from_the_US_National_Incident_Management_System_1999-2020/19858927/3) (St. Denis et al., 2023). Select the ics209plus-wildfire.zip. The ics209-plug-wf_incidents_1999to2020.csv is used in *01_definesample.R*.
+* The wildfire incident data were downloaded, [here](https://figshare.com/articles/dataset/All-hazards_dataset_mined_from_the_US_National_Incident_Management_System_1999-2020/19858927/3) (St. Denis et al., 2023). Select the ics209plus-wildfire.zip. The ics209-plug-wf_incidents_1999to2020.csv is used in [*scripts/01_definesample.R*] (INSERTLINK).
 
-* MTBS fire boundaries were downloaded, [here](https://www.mtbs.gov/direct-download) in July 2022. The mtbs_perims_DD.shp is used in *02_getMTBSbounds.R*.
+* MTBS fire boundaries were downloaded, [here](https://www.mtbs.gov/direct-download) in July 2022. The mtbs_perims_DD.shp is used in [*scripts/02_getMTBSbounds.R*] (INSERTLINK).
 
-* Census place data were downloaded using wget with the commands in [get_census_place_data/get_cp_yearly](https://github.com/kejones8/Jurisdictional_Complexity/tree/main/get_census_place_data).
+* Census place data were downloaded using wget with the commands in [get_census_place_data/get_cp_yearly](https://github.com/kejones8/Jurisdictional_Complexity/tree/main/get_census_place_data). For every year and every state, the census places designated as Functional Statistical Type A were selected and yearly files were generated (used in [*scripts/proc_cenplace.R] (INSERT LINK)*
