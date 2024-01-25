@@ -25,7 +25,10 @@ Scripts contained in _workflow_scripts_ are ordered by number:
 
 * _01_definesample.R_ : Reads in all-hazard data, finds wildfire incidents that have MTBS boundaries. 
 * _02_getMTBSbounds.R_ : Using the MTBS boundaries identified in 01_definesample.R, MTBS boundaries are subset and engaged (5mi) buffers are generated.
-* _03_proc_cenplace.R_ :
+* _03_proc_cenplace.R_ : Yearly census place data (functional statistical type A) are read in and interseced with the burned and engaged fire boundaries.
+* _04_intersect_wfdss.R_ : Intersects the WFDSS/surface management dataset with burned and engaged fire boundaries.
+* _05_count_wfdss_jurs.R_ : Users outputs from _04_intersect_wfdss.R_ to count the number of jurisdictiosn for each unique level of government & agency.
+*   
 
 
 ## Important Notes on Data Availability:
