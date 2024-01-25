@@ -382,6 +382,6 @@ write_sf(num_times_eng,"data\\census_place\\cp_bynumtimes_eng.shp")
 
 
 #write out records of burned and engaged cnensus places 
-write.csv(count_cenpl_burn_all,count_cenpl_burn_out)
-write.csv(count_cenpl_threat_all,count_cenpl_threat_out)
+write.csv(count_cenpl_burn_all,"count_cpburn_foreach_incident.csv")
+write.csv(count_cenpl_threat_all,"count_cpeng_foreach_incident.csv")
 
