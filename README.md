@@ -43,6 +43,9 @@ New version of data downloadable [here](https://data-nifc.opendata.arcgis.com/da
 ### BLM Data
 File GDB downloaded [here](https://gbp-blm-egis.hub.arcgis.com/datasets/4ec898f8fb104ce4910932d02791563a/about). Unit districts were used. Downloaded version may differ from manuscript.
 
+### BIA Data
+Original data downloaded [here](https://biamaps.doi.gov/index.html). This website is now closed; the redirect is to [this page](https://biamaps.geoplatform.gov/BIA-Opendata/), but the same data are not available for download. See [this static map](https://www.bia.gov/bia/ojs/districts) for the districts used.
+
 ### State & County
 States downloaded [here](https://www2.census.gov/geo/tiger/TIGER2020/STATE/). Counties downloaded [here](https://www2.census.gov/geo/tiger/TIGER2020/COUNTY/).
 
