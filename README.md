@@ -17,8 +17,9 @@ This respository is provided as guidance to use this framework on new jurisdicti
 1) A single or multiple incidents or events for which jurisdictional complexity metrics are desired (i.e., wildfire incidents & wildfire boundaries)
 2) Jurisdictional data (spatial data delineating jurisdictions to identify)
 3) Counting decision rules (outlined in the manuscript and implemented in the scripts)
+&nbsp;  
 &nbsp;
-&nbsp;
+&nbsp;  
 
 
 ## Important Notes on Data Availability:
