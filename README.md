@@ -23,5 +23,8 @@ The wildfire incident data were downloaded, [here](https://figshare.com/articles
 Downloaded, [here](https://www.mtbs.gov/direct-download) in July 2022. The mtbs_perims_DD.shp is used in [*scripts/02_getMTBSbounds.R*] (INSERTLINK).
 
 ## Jurisdictional Data
+### WFDSS Data
+New version of data downloadable [here](https://data-nifc.opendata.arcgis.com/datasets/nifc::jurisdictional-unit-public/about). Data were projected and geometries cleaned using [data_processing/clean_WFDSS] (INSERT LINK)
+
 ### Census Places
 Downloaded using wget with the commands in [get_census_place_data/get_cp_yearly](https://github.com/kejones8/Jurisdictional_Complexity/tree/main/get_census_place_data). For every year and every state, the census places designated as Functional Statistical Type A were selected and yearly files were generated (yearly files called in [*scripts/proc_cenplace.R] (INSERT LINK)*. As referenced in the script, these yearly data were placed in the /data/census_place/yearly directory.
