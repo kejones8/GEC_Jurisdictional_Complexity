@@ -19,7 +19,12 @@ This respository provides guidance for using the demonstrated jurisdictional com
 3) Counting decision rules (outlined in the manuscript and implemented in the scripts)
 &nbsp;  
 &nbsp;
-&nbsp;  
+&nbsp;
+
+Scripts contained in workflow_scripts are ordered by number:
+*01_definesample.R : Reads in all-hazard data, finds wildfire incidents that have MTBS boundaries. 
+*02_getMTBSbounds.R : Using the MTBS boundaries identified in 01_definesample.R, MTBS boundaries are subset and engaged (5mi) buffers are generated.
+*03_proc_cenplace.R :
 
 
 ## Important Notes on Data Availability:
