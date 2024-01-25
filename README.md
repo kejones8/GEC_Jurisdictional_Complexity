@@ -38,7 +38,7 @@ Downloaded, [here](https://www.mtbs.gov/direct-download) in July 2022. The mtbs_
 &nbsp;  
 ## Jurisdictional Data
 ### WFDSS Data
-New version of data downloadable [here](https://data-nifc.opendata.arcgis.com/datasets/nifc::jurisdictional-unit-public/about). Data were projected and geometries cleaned using [data_processing/clean_WFDSS] (INSERT LINK)
+New version of data downloadable [here](https://data-nifc.opendata.arcgis.com/datasets/nifc::jurisdictional-unit-public/about). Data were projected and geometries cleaned using [data_processing/clean_WFDSS](https://github.com/kejones8/Jurisdictional_Complexity/blob/main/data_processing_acquisition/clean_WFDSS.R)
 
 ### BLM Data
 File GDB downloaded [here](https://gbp-blm-egis.hub.arcgis.com/datasets/4ec898f8fb104ce4910932d02791563a/about). Unit districts were used.
