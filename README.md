@@ -40,6 +40,9 @@ Downloaded, [here](https://www.mtbs.gov/direct-download) in July 2022. The mtbs_
 ### WFDSS Data
 New version of data downloadable [here](https://data-nifc.opendata.arcgis.com/datasets/nifc::jurisdictional-unit-public/about). Data were projected and geometries cleaned using [data_processing/clean_WFDSS] (INSERT LINK)
 
+### BLM Data
+File GDB downloaded [here](https://gbp-blm-egis.hub.arcgis.com/datasets/4ec898f8fb104ce4910932d02791563a/about). Unit districts were used.
+
 ### State & County
 States downloaded [here](https://www2.census.gov/geo/tiger/TIGER2020/STATE/). Counties downloaded [here](https://www2.census.gov/geo/tiger/TIGER2020/COUNTY/).
 
