@@ -33,7 +33,9 @@ The wildfire incident data were downloaded, [here](https://figshare.com/articles
 
 ### MTBS Fire Boundaries
 Downloaded, [here](https://www.mtbs.gov/direct-download) in July 2022. The mtbs_perims_DD.shp is used in [*scripts/02_getMTBSbounds.R*] (INSERTLINK).
-
+&nbsp;  
+&nbsp;  
+&nbsp;  
 ## Jurisdictional Data
 ### WFDSS Data
 New version of data downloadable [here](https://data-nifc.opendata.arcgis.com/datasets/nifc::jurisdictional-unit-public/about). Data were projected and geometries cleaned using [data_processing/clean_WFDSS] (INSERT LINK)
