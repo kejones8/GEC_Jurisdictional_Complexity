@@ -21,11 +21,11 @@ This respository provides guidance for using the demonstrated jurisdictional com
 &nbsp;
 &nbsp;
 
-Scripts contained in workflow_scripts are ordered by number:
+Scripts contained in _workflow_scripts_ are ordered by number:
 
-* 01_definesample.R : Reads in all-hazard data, finds wildfire incidents that have MTBS boundaries. 
-* 02_getMTBSbounds.R : Using the MTBS boundaries identified in 01_definesample.R, MTBS boundaries are subset and engaged (5mi) buffers are generated.
-* 03_proc_cenplace.R :
+* _01_definesample.R_ : Reads in all-hazard data, finds wildfire incidents that have MTBS boundaries. 
+* _02_getMTBSbounds.R_ : Using the MTBS boundaries identified in 01_definesample.R, MTBS boundaries are subset and engaged (5mi) buffers are generated.
+* _03_proc_cenplace.R_ :
 
 
 ## Important Notes on Data Availability:
