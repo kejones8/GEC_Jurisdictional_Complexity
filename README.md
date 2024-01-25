@@ -15,6 +15,7 @@ This respository is provided as guidance to use this framework on new jurisdicti
 
 ## Important Notes on Data Availability:
 
+
 ## Wildfire Incidents and Spatial Data
 ### All-Hazards (incident tabular data)
 The wildfire incident data were downloaded, [here](https://figshare.com/articles/dataset/All-hazards_dataset_mined_from_the_US_National_Incident_Management_System_1999-2020/19858927/3) (St. Denis et al., 2023). Select the ics209plus-wildfire.zip. The ics209-plug-wf_incidents_1999to2020.csv is used in [*scripts/01_definesample.R*] (INSERTLINK).
@@ -25,6 +26,9 @@ Downloaded, [here](https://www.mtbs.gov/direct-download) in July 2022. The mtbs_
 ## Jurisdictional Data
 ### WFDSS Data
 New version of data downloadable [here](https://data-nifc.opendata.arcgis.com/datasets/nifc::jurisdictional-unit-public/about). Data were projected and geometries cleaned using [data_processing/clean_WFDSS] (INSERT LINK)
+
+### State & County
+States downloaded [here](https://www2.census.gov/geo/tiger/TIGER2020/STATE/). Counties downloaded [here](https://www2.census.gov/geo/tiger/TIGER2020/COUNTY/).
 
 ### Census Places
 Downloaded using wget with the commands in [get_census_place_data/get_cp_yearly](https://github.com/kejones8/Jurisdictional_Complexity/tree/main/get_census_place_data). For every year and every state, the census places designated as Functional Statistical Type A were selected and yearly files were generated (yearly files called in [*scripts/proc_cenplace.R] (INSERT LINK)*. As referenced in the script, these yearly data were placed in the /data/census_place/yearly directory.
