@@ -13,4 +13,4 @@ Jones, K., Vukomanovic, J.V., Nowell, B., McGovern, S.M. 2024. Mapping Wildfire 
 
 * MTBS fire boundaries were downloaded, [here](https://www.mtbs.gov/direct-download) in July 2022. The mtbs_perims_DD.shp is used in *02_getMTBSbounds.R*.
 
-* Census place data were downloaded using wget with this script
+* Census place data were downloaded using wget with the commands in [get_census_place_data/get_cp_yearly] (https://github.com/kejones8/Jurisdictional_Complexity/tree/main/get_census_place_data).
