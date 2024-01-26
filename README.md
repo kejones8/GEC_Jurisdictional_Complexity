@@ -13,7 +13,7 @@ This repository contains scripts used to process wildfire and jurisdictional dat
 &nbsp;   
 
 This respository provides guidance for using the demonstrated jurisdictional complexity methods on new applications (using the same decision rules outlined in the manuscript). Data are not provided but data organization and data use / processing are detailed to the extent possible. The data needs are: 
-&nbsp;  
+&nbsp;   
 **1)** A single or multiple incidents or events for which jurisdictional complexity metrics are desired (i.e., wildfire incidents & wildfire boundaries)&nbsp;  
 **2)** Jurisdictional data (spatial data delineating jurisdictions to identify)&nbsp;  
 **3)** Decision rules to count and identify jurisdictions (outlined in the manuscript and implemented in the scripts)&nbsp;  
