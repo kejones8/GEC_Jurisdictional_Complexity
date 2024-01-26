@@ -28,7 +28,8 @@ Scripts contained in _workflow_scripts_ are ordered by number:
 * _03_proc_cenplace.R_ : Yearly census place data (functional statistical type A) are read in and interseced with the burned and engaged fire boundaries.
 * _04_intersect_wfdss.R_ : Intersects the WFDSS/surface management dataset with burned and engaged fire boundaries.
 * _05_count_wfdss_jurs.R_ : Uses outputs from _04_intersect_wfdss.R_ to count the number of jurisdictions for each unique level of government & agency.
-*   
+* _06_intersect_stcnty.R_ : Uses outputs from _04_intersect_wfdss.R_ to find non-federal lands burned/engaged. Intersects those lands with states and counties.
+* 
 
 
 ## Important Notes on Data Availability:
