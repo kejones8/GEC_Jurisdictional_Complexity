@@ -30,7 +30,7 @@ incid_polys<-mtbs_incid %>%
 write_sf(incid_polys,"data/incids_multipoly.shp")
 
 #read in the jurisdictional count data 
-jur_counts<-read.csv(final_out)
+jur_counts<-read.csv("data/incid_withjur_counts.csv")
 
 #read in the jurisdictional area estimates 
 jur_area<-read.csv("data/areas_burn_eng_byjur_landtenure.csv")
