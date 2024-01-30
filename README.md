@@ -34,7 +34,8 @@ Generally, the required data are:&nbsp;
 * _05_count_wfdss_jurs.R_ : Uses outputs from _04_intersect_wfdss.R_ to count the number of jurisdictions for each unique level of government & agency.
 * _06_intersect_stcnty.R_ : Uses outputs from _04_intersect_wfdss.R_ to find non-federal lands burned/engaged. Intersects those lands with states and counties.
 * _07_intersect_bia_blm.R_ : Uses outputs from _04_intersect_wfdss.R_ to identify BLM and BIA lands. Intersects these lands with corrected BIA & BLM jurisdictional shapefiles.
-* _08_merge_jur_data.R_ :
+* _08_merge_jur_data.R_ : Creates table with final jurisdictional counts for each incident. Uses outputs from _03_proc_cenplace.R_, _05_count_wfdss_jurs.R_, _06_intersect_stcnty.R_, _07_intersect_bia_blm.R_. 
+* _09_calc_landarea.R_ :
 &nbsp;  
 &nbsp;  
 &nbsp;  
