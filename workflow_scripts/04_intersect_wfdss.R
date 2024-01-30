@@ -53,7 +53,7 @@ write_sf(surf_inters_burn,"data\\surf_thatintersect_burn.shp")
 
 
 #can write out just the surfman polygons that will get intersected with threatened areas
-write_sf(surf_inters_threat,"data\\surf_thatintersect_thr.shp")
+write_sf(surf_inters_threat,"data\\surf_thatintersect_eng.shp")
 
 #then for each of those surf_man TRUE polygons, subset and do the actual intersection with those
 burned_tointer<-unique(burned_proj$Event_ID)
