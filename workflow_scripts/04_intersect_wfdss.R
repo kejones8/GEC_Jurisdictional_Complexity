@@ -20,7 +20,7 @@ library(doParallel)
 
 #read in cleaned surf man dataset
 #has erroneous frances marion and sumter national forest corrected
-surfman_buf<-st_read("data\\JCA\\surfman_fin.shp")
+surfman_buf<-st_read("data\\input\\surfman_fin.shp")
 surfman_buf<-st_transform(surfman_buf,5070)
 
 #reading in df of incident_ids and mtbs_ids
