@@ -22,8 +22,8 @@ Generally, the required data are:&nbsp;
 **2)** Jurisdictional data (spatial data delineating jurisdictions to identify)&nbsp;  
 **3)** Decision rules to count and identify jurisdictions (outlined in the manuscript and implemented in the scripts)&nbsp;  
 &nbsp;  
-&nbsp;
-&nbsp;
+&nbsp;  
+&nbsp;  
 
 ## Scripts contained in _workflow_scripts_ are ordered by number:
 
@@ -34,7 +34,9 @@ Generally, the required data are:&nbsp;
 * _05_count_wfdss_jurs.R_ : Uses outputs from _04_intersect_wfdss.R_ to count the number of jurisdictions for each unique level of government & agency.
 * _06_intersect_stcnty.R_ : Uses outputs from _04_intersect_wfdss.R_ to find non-federal lands burned/engaged. Intersects those lands with states and counties.
 * _07_intersect_bia_blm.R_ : Uses outputs from _04_intersect_wfdss.R_ to identify BLM and BIA lands. Intersects these lands with corrected BIA & BLM jurisdictional shapefiles.
-
+&nbsp;  
+&nbsp;  
+&nbsp;  
 
 ## Important Notes on Data Availability:
 &nbsp;  
