@@ -38,7 +38,6 @@ Generally, the required data are:&nbsp;
 
 ## Important Notes on Data Availability:
 &nbsp;  
-&nbsp;  
 ## Wildfire Incidents and Boundaries
 ### All-Hazards (incident tabular data)
 The wildfire incident data were downloaded, [here](https://figshare.com/articles/dataset/All-hazards_dataset_mined_from_the_US_National_Incident_Management_System_1999-2020/19858927/3) (St. Denis et al., 2023). Select the ics209plus-wildfire.zip. The ics209-plug-wf_incidents_1999to2020.csv is used in [*scripts/01_definesample.R*](https://github.com/kejones8/Jurisdictional_Complexity/blob/main/workflow_scripts/01_definesample.R).
