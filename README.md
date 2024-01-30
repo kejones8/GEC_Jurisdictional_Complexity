@@ -36,7 +36,7 @@ Scripts contained in _workflow_scripts_ are ordered by number:
 ## Important Notes on Data Availability:
 &nbsp;  
 &nbsp;  
-## Wildfire Incidents and Spatial Data
+## Wildfire Incidents and Boundaries
 ### All-Hazards (incident tabular data)
 The wildfire incident data were downloaded, [here](https://figshare.com/articles/dataset/All-hazards_dataset_mined_from_the_US_National_Incident_Management_System_1999-2020/19858927/3) (St. Denis et al., 2023). Select the ics209plus-wildfire.zip. The ics209-plug-wf_incidents_1999to2020.csv is used in [*scripts/01_definesample.R*](https://github.com/kejones8/Jurisdictional_Complexity/blob/main/workflow_scripts/01_definesample.R).
 
@@ -45,7 +45,7 @@ Downloaded, [here](https://www.mtbs.gov/direct-download) in July 2022. The mtbs_
 &nbsp;  
 &nbsp;  
 &nbsp;  
-## Jurisdictional Data
+## Jurisdictional Spatial Data
 ### WFDSS Data
 New version of data downloadable [here](https://data-nifc.opendata.arcgis.com/datasets/nifc::jurisdictional-unit-public/about). Data were projected and geometries cleaned using [data_processing/clean_WFDSS](https://github.com/kejones8/Jurisdictional_Complexity/blob/main/data_acquisition_processing/clean_WFDSS.R). Downloaded version may differ from manuscript.
 
