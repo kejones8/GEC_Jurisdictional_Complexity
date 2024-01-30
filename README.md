@@ -36,7 +36,7 @@ Generally, the required data are:&nbsp;
 * _07_intersect_bia_blm.R_ : Uses outputs from _04_intersect_wfdss.R_ to identify BLM and BIA lands. Intersects these lands with corrected BIA & BLM jurisdictional shapefiles.
 * _08_merge_jur_data.R_ : Creates table with final jurisdictional counts for each incident. Uses outputs from _03_proc_cenplace.R_, _05_count_wfdss_jurs.R_, _06_intersect_stcnty.R_, _07_intersect_bia_blm.R_. 
 * _09_calc_landarea.R_ : Defines function called in _10_finalize_area_calcs.R_ to compute land area burned and engaged by land tenure.
-* _10_finalize_area_calcs.R_
+* _10_finalize_area_calcs.R_ : 
 &nbsp;
 &nbsp;  
 &nbsp;  
