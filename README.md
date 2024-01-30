@@ -14,6 +14,7 @@ This repository contains scripts used to process wildfire and jurisdictional dat
 &nbsp;   
 
 This respository provides guidance for using the demonstrated jurisdictional complexity methods on new applications (using the same decision rules outlined in the manuscript). Data are not provided but data organization and data use / processing are detailed to the extent possible. &nbsp;  
+&nbsp;  
 Generally, the required data are:&nbsp;  
 &nbsp;  
 &nbsp;  
