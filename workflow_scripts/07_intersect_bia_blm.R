@@ -45,10 +45,10 @@ surfman_threat_blm_regions<-st_intersection(surfman_threat_blm,blm_proj)
 #need to intersect blm & bia with threatened and burned data - not many bia/blm regions
 
 #read in mtbs burned area our sample footprints
-mtbs_burn<-read_sf(select_mtbs_out)
+mtbs_burn<-read_sf("data/select_mtbs.shp")
 burn_proj<-st_make_valid(st_transform(mtbs_burn,5070))
 #read in mtbs threatened area our sample 
-mtbs_threat<-read_sf(threat_work_out)
+mtbs_threat<-read_sf("data/eng_buf_donut.shp")
 threat_proj<-st_transform(mtbs_threat,5070)
 threat_buf<-st_make_valid(st_buffer(threat_proj,0))
 
