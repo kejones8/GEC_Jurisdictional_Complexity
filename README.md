@@ -37,7 +37,7 @@ Generally, the required data are:&nbsp;
 * _08_merge_jur_data.R_ : Creates table with final jurisdictional counts for each incident. Uses outputs from _03_proc_cenplace.R_, _05_count_wfdss_jurs.R_, _06_intersect_stcnty.R_, _07_intersect_bia_blm.R_. 
 * _09_calc_landarea.R_ : Defines function called in _10_finalize_area_calcs.R_ to compute land area burned and engaged by land tenure (federal, tribal, state, local, private).
 * _10_finalize_area_calcs.R_ : Calculates land area burned and engaged and formats data for merging to create final geospatial layer.
-* _11_write_outputs.R_ : Writes out final geopackage with unique incident ids matched with their fire boundaries and jurisdictional attributes.
+* _11_write_outputs.R_ : Writes out final geopackage with unique fire incident IDs matched with their boundaries and jurisdictional attributes.
 &nbsp;
 &nbsp;  
 &nbsp;  
