@@ -7,7 +7,7 @@ This repository contains scripts used to process wildfire and jurisdictional dat
 
 ### Citation: 
 
-**Jones, K., Vukomanovic, J.V., Nowell, B., McGovern, S.M. 2024. Mapping Wildfire Jurisdictional Complexity Reveals Opportunities for Regional Co-Management. Global Environmental Change
+**Jones, K., Vukomanovic, J.V., Nowell, B., McGovern, S.M. 2024. Mapping Wildfire Jurisdictional Complexity Reveals Opportunities for Regional Co-Management. _Global Environmental Change_
 84, 102084. https://doi.org/10.1016/j.gloenvcha.2024.102804.**
 &nbsp;  
 &nbsp;   
