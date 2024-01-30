@@ -98,5 +98,5 @@ jur_counts<-read.csv("data/incid_withjur_counts.csv")
 burn_engag_tab<-calc_areas(uni_incids,nonemptygeoms)
 
 #write out table that contains burned and threatened areas by land tenure
-write.csv(burn_engag_tab,burn_threat_perc_area_tab_out)
+write.csv(burn_engag_tab,"data/areas_burn_eng_byjur_landtenure.csv")
 
