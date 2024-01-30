@@ -9,7 +9,7 @@ library(doParallel)
 
 #read in output from 01_definesample.R 
 #a csv of incident_ids &  associated mtbs footprints
-jca_samp<-read.csv("data/incid_fires_year.csv") #defined in 00_definepaths.R
+jca_samp<-read.csv("data/incid_fires_year.csv") 
 
 #read in mtbs data
 all_mtbs<-read_sf("data/mtbs_perimeter_data/mtbs_perims_DD.shp")
